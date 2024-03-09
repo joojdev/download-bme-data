@@ -46,7 +46,7 @@ python3 baixar_dados.json
 
 ao rodar esse comando, você vai ser bem-vindo com um menu que se tudo der certo, você vai terminar com um arquivo que se parece mais ou menos com isso:
 
-```json
+```csv
 Timestamp,cavalo,vaca
 1709940620,True,False
 1709940621,True,False
