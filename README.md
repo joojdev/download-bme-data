@@ -32,6 +32,12 @@ qualquer request post para a rota `/registrar_medicao` terá seu body salvo junt
 
 para dar uma checada rápida nos dados, você pode acessar a rota `/pegar_medicoes`.
 
+caso você precise acessar essa api por um dispositivo que não esteja na mesma rede, que é meu caso, você pode usar algumas ferramentas de port forwarding.
+
+```
+ngrok http 5000
+```
+
 agora, para extrair os dados necessários no bme ai studio, você pode rodar o arquivo `baixar_dados.py`.
 
 ```
